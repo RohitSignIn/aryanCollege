@@ -43,3 +43,31 @@
 #         max = a[i]
 
 # print(max)
+
+# 6. Count +ve, -ve and zeros
+# 0 = negative count
+# 1 = zeros count
+# 2 = positive count
+# a = [0, 0, 0]
+# for i in [-1,-1,-1,-1,-1,0,1,2,3,4,0,0,0]:
+#     if(i == 0):
+#         a[1] = a[1]+1
+#     elif(i < 0):
+#         a[0] = a[0]+1
+#     if(i > 0):
+#         a[2] = a[2]+1
+
+# print(a[0], a[1], a[2])
+
+
+# 7. Display sum of all two digits and three digits Number
+a = 9978965
+b = str(a)
+sum = 0
+for i in range(0, len(b), 1):
+    sum = int(b[i]) + sum
+print(sum)
+
+
+
+
