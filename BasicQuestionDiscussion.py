@@ -61,13 +61,53 @@
 
 
 # 7. Display sum of all two digits and three digits Number
-a = 9978965
-b = str(a)
-sum = 0
-for i in range(0, len(b), 1):
-    sum = int(b[i]) + sum
-print(sum)
+# a = 9978965
+# b = str(a)
+# sum = 0
+# for i in range(0, len(b), 1):
+#     sum = int(b[i]) + sum
+# print(sum)
+
+
+# 11. Display Power (Exponent)
+# n=int(input("enter"))
+# n1=int(input("power="))
+# p=1
+# while n1 > 0:
+#     p=p*n
+#     n1=n1-1
+# print(p)
+
+
+# 12. Factorial (Using loop and recurssion)
+# def factorial(n):
+#     if(n == 1):
+#         return n
+    
+#     return factorial(n-1) * n
+
+# print(factorial(5))
 
 
 
+# 17. Armstrong Number
+# Power Function
+# def power(dig, n):
+#     return int(dig) ** n
 
+# no = 153
+# noStr = str(no)
+# totalDigits = len(str(no))
+
+# armstrong = 0
+# for i in range((totalDigits)):
+#     armstrong = power(noStr[i], totalDigits) + armstrong
+
+# if(armstrong == no):
+#     print("Valid armstrong")
+# else:
+#     print("Invalid armstrong")
+
+
+# Fibonacci Series
+# Home Work
