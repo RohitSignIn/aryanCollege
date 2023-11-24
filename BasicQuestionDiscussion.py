@@ -110,4 +110,42 @@
 
 
 # Fibonacci Series
-# Home Work
+# def fibonacci(n):
+#     if(n == 0 or n == 1):
+#         return n
+#     return fibonacci(n-1) + fibonacci(n-2)
+
+# print(fibonacci(4))
+
+# LCM
+# n1 = 2
+# n2 = 7
+
+
+# def getGreater(n1, n2):
+#     if(n1 > n2):
+#         return n1
+#     else:
+#         return n2
+    
+# def getSmaller(n1, n2):
+#     if(n1 < n2):
+#         return n1
+#     else:
+#         return n2
+
+# greater = getGreater(n1,n2)
+# small = getSmaller(n1,n2)
+
+# n2 = greater
+
+# while True:
+#     if(greater % small == 0):
+#         print(greater)
+#         break
+#     else:
+#         greater = greater + n2
+
+# HCF || GCD
+
+
