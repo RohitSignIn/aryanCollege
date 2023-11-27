@@ -62,4 +62,5 @@ while(k > 0):
     count = count+1
 
 noStr = "".join(noStr)
+
 print(noStr)
