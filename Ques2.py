@@ -42,6 +42,7 @@
 
 # 3, 2
 
+
 # def op1(a):
 #     # op 1
 #     count = 0
@@ -108,3 +109,4 @@
 # obj.hello()
 
 
+# Bitwise AND 

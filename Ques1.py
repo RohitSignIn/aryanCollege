@@ -46,21 +46,21 @@
 # // Antonio can change the first digit to ‘1’ and change the second digit to ‘0’. It can be proved that 1099 is the minimum possible integer that Antonio can get.
 
 
-no = "1034"
-noStr = [char for char in no]
-k = 2
+# no = "1034"
+# noStr = [char for char in no]
+# k = 2
 
-count = 0
-while(k > 0):
-    if(count == 0 and noStr[count] != "1"):
-        noStr[count] = "1"
-        k = k-1
-    elif(count != 0 and noStr[count] != "0"):
-        noStr[count] = "0"
-        k = k-1
+# count = 0
+# while(k > 0):
+#     if(count == 0 and noStr[count] != "1"):
+#         noStr[count] = "1"
+#         k = k-1
+#     elif(count != 0 and noStr[count] != "0"):
+#         noStr[count] = "0"
+#         k = k-1
 
-    count = count+1
+#     count = count+1
 
-noStr = "".join(noStr)
+# noStr = "".join(noStr)
 
-print(noStr)
+# print(noStr)
