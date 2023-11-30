@@ -1,1 +1,0 @@
-oddSum(a, operations)
