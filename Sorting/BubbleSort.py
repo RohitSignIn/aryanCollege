@@ -11,3 +11,7 @@ a = [2,1,4,8,6,1,4]
 print(bubble(a))
 
 
+# Inplace Sorting - YES
+# Stable sorting - YES
+# TC = O(nSq)
+

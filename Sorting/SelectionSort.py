@@ -10,3 +10,7 @@ def selectionSort(a, size):
 
 a = [2,3,4,1,2,4]
 print(selectionSort(a, len(a)))
+
+# Inplace Sorting - YES
+# Stable sorting - YES
+# TC = O(nSq)

@@ -12,3 +12,7 @@ def insertionSort(a, size):
     
 a = [2,48,1,1,2,0,4,2,0]
 print(insertionSort(a, len(a)))
+
+# Inplace Sorting - YES
+# Stable sorting - YES
+# TC = O(nSq)
